@@ -1,0 +1,73 @@
+[
+    {
+      "title": "HTML5",
+      "image": "https://www.svgrepo.com/show/452228/html-5.svg",
+      "use": "markup"
+    },
+    {
+      "title": "CSS3",
+      "image": "https://www.svgrepo.com/show/452185/css-3.svg",
+      "use": "styling"
+    },
+    {
+      "title": "JavaScript",
+      "image": "https://www.svgrepo.com/show/349419/javascript.svg",
+      "use": "language"
+    },
+    {
+      "title": "MongoDB",
+      "image": "https://www.svgrepo.com/show/439231/mongodb.svg",
+      "use": "database"
+    },
+    {
+      "title": "Express.js",
+      "image": "https://www.peanutsquare.com/wp-content/uploads/2024/04/Express.png",
+      "use": "framework"
+    },
+    {
+      "title": "React",
+      "image": "https://www.svgrepo.com/show/439290/react.svg",
+      "use": "library"
+    },
+    {
+      "title": "Node.js",
+      "image": "https://www.svgrepo.com/show/376337/node-js.svg",
+      "use": "server"
+    },
+    {
+      "title": "Django",
+      "image": "https://www.svgrepo.com/show/353657/django-icon.svg",
+      "use": "framework"
+    },
+    {
+      "title": "AI/ML Algorithms",
+      "image": "https://www.svgrepo.com/show/447866/ai-mi-algorithm.svg",
+      "use": "algorithm"
+    },
+    {
+      "title": "Python",
+      "image": "https://www.svgrepo.com/show/374016/python.svg",
+      "use": "language"
+    },
+    {
+      "title": "MySQL",
+      "image": "https://www.svgrepo.com/show/439233/mysql.svg",
+      "use": "database"
+    },
+    {
+      "title": "GitHub",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+      "use": "repository"
+    },
+    {
+      "title": "Git",
+      "image": "https://www.svgrepo.com/show/452210/git.svg",
+      "use": "version control"
+    },
+    {
+      "title": "Postman",
+      "image": "https://www.svgrepo.com/show/354202/postman-icon.svg",
+      "use": "API testing"
+    }
+  ]
+  

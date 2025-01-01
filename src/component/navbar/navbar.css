@@ -1,0 +1,57 @@
+.navbar{
+   
+    height: 60px;  
+}
+
+.navbar-1 a{
+    text-decoration: none;
+    color: #0ac98c;
+    font-family: "Playwrite IS", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-1{
+    
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-2{
+    width: 50%;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-menu li a{
+        font-family: "Space Grotesk", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        letter-spacing: 1px;
+}
+
+.nav-menu li a:hover{
+    color: #0ac98c;
+}
