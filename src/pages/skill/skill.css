@@ -1,0 +1,111 @@
+#skills{
+    height: auto;
+   
+}
+
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-cont{
+    
+    width: 80vw;
+    margin: 100px 0px 100px;
+}
+.skill-cont-1-text h1{
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #0ac98c;
+    text-align: center;
+}
+
+
+
+
+.skill-card{
+    border: 1px solid #fff;
+    width: 250px;
+    height:  250px;
+    border-radius: 16px;
+    
+}
+
+.skill-logo{
+    height: 100px;
+}
+
+.skill-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-card:hover {
+    background-color: #0ac98c;
+    border: none;
+    box-shadow: #454545 0px 5px 15px;
+}
+
+.skill-logo:hover{
+    height: 120px;
+}
+
+
+.skill-cont-2{
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-card{
+    position: relative;
+}
+
+.skill-card > .p1{
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+}
+
+
+.skill-card > .p1{
+    display: block;
+    background-color: transparent;
+    border: 0.1rem solid #fff;
+    border-radius: 10px ;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    font-family: "Space Grotesk", serif;
+    font-size: 12px;
+}
+
+.skill-card > .p2{
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+
+
+
+.skill-card > .p2{
+    display: block;
+    background-color: transparent;
+    border: 0.1rem solid #fff;
+    border-radius: 10px ;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    font-family: "Space Grotesk", serif;
+    font-size: 12px;
+}

@@ -1,0 +1,22 @@
+#projects{
+    border: 1px solid white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-cont{
+    border: 1px solid white;
+    width: 80vw;
+    margin: 100px 0px 100px;
+}
+
+.projects-cont-1 h1{
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #0ac98c;
+    text-align: center;
+}
