@@ -1,5 +1,5 @@
 #projects{
-    border: 1px solid white;
+   
     height: auto;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 .projects-cont{
-    border: 1px solid white;
+    
     width: 80vw;
     margin: 100px 0px 100px;
 }
@@ -20,3 +20,180 @@
     color: #0ac98c;
     text-align: center;
 }
+
+
+.projects-cont-2{
+    margin-top: 50px;
+   
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+
+.project-card-part-1{
+   
+    width: 40%;
+    height: 320px;
+}
+
+.project-card-part-1 > img{
+    width: 90%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.project-card-part-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.project-card-part-2{
+   
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.project-card-part-2-1{
+    height: 85%;
+    width: 90%;
+    
+    position: relative;
+}
+
+
+.project-card-cont{
+    display: flex;
+    justify-content: center;
+}
+
+
+.project-card-part-2-1-title h1{
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #000000;
+    font-size: 26px;
+}
+
+.project-card-part-2-1-stack{
+    margin-top: 5px;
+}
+
+.project-card-part-2-1-stack > ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.project-card-part-2-1-stack > ul li{
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+    background-color: #00ffae49;
+    text-align: center;
+    align-content: center;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    color: #0ac98c;
+    font-weight: 500;
+}
+
+.project-card-part-2-1-paragraph{
+    margin-top: 20px;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+
+
+.project-link-1-logo{
+    height: 30px;
+}
+
+.project-links-text-png{
+    height: 14px;
+}
+
+.project-link-1-logo{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.project-link{
+    height: 60px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+
+.project-links-text a{
+    text-decoration: none;
+    font-size: 14px;
+    align-content: center;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #2f2f2f;
+    
+}
+
+
+.project-links-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    
+}
+
+
+
+.project-links {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    
+}
+
+
+.project-links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.project-link-1-logo:hover{
+    background-color: #0ac98c;
+    height: 40px;
+    width: 40px;
+}
+
+
+.project-links a{
+    text-decoration: none;
+}
+
