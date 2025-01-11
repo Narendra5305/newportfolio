@@ -1,0 +1,74 @@
+.form-main{
+    height: 50vh;
+}
+
+
+.form-main label{
+    color: #0ac98c;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.form-main button{
+    background-color: #0ac98c;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.form label input ,textarea{
+    width: 40vh;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid  #0ac98c;
+}
+
+.form label input{
+    height: 30px;
+    padding-left: 5px;
+}
+
+.form label textarea{
+    height: 100px;
+    padding-left: 5px;
+}
+
+.form-header{
+    color: #0ac98c;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center; 
+}
+
+.form-header h3{
+    font-size: 32px;
+}
+
+.form-header p{
+    color: #019063;
+}
