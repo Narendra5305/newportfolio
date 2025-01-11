@@ -8,6 +8,7 @@ import About from './pages/about/about'
 import Skill from './pages/skill/skill'
 import Projects from './pages/projects/projects'
 import ContactForm from './pages/contact/contact'
+import Footer from './component/navbar/footer/footer'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <Skill/>
       <Projects/>
       <ContactForm/>
+      <Footer/>
     </>
   )
 }

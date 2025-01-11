@@ -18,7 +18,7 @@ const Home = () =>{
                     </div>
                     <div className="home-text-3">
                         <div className="home-text-3-text">
-                        <a href="">Contact Me!</a>
+                        <a href="mailto:narendrasinghsitu4@gmail.com">Contact Me!</a>
                         </div>
         
                     </div>
