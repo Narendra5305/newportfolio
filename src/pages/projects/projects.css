@@ -235,4 +235,8 @@
     .project-card-part-2-1-paragraph{
         font-size: 13px;
     }
+
+    .project-card-part-2-1-stack > ul li{
+        font-size: 13px;
+    }
 } 
