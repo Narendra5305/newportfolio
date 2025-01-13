@@ -117,6 +117,7 @@
     }
    
     .about-cont{
+        
         display: flex;
         flex-wrap: wrap;
         

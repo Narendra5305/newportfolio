@@ -197,3 +197,42 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 80rem) {
+    .project-card-cont{
+        display: flex;
+        height: 60vh;
+        flex-wrap: wrap;
+    }
+    .project-card-part-1{
+        width: 100%;
+        height: 45%;
+       
+    }
+
+    .project-card-part-2{
+        width: 100%;
+        height: 55%;
+       
+    }
+}
+
+
+@media screen and (max-width: 48rem){
+    .project-card-cont{
+        height: 95vh;
+    }
+    .project-card-part-1{
+        width: 100%;
+        height: 30%;
+        
+    }
+
+    .project-card-part-2{
+        width: 100%;
+        height: 70%;
+       
+    }
+    .project-card-part-2-1-paragraph{
+        font-size: 15px;
+    }
+} 
