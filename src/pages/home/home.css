@@ -122,6 +122,27 @@
 }
 
 
+/* -------------responsive-------------------
+ */
+
+@media screen and (max-width: 80rem){
+
+    .home-box-1{
+        border: 1px solid white;
+        margin-top: 50px;
+        height: 40vh;
+        width: 90vw;
+    }
+    .home-box-2{
+        border: 1px solid white;
+        height: 50vh;
+        width: 90vw;
+    }
+}
+ 
+
+
+
 /* -----------animation text styling------------ */
 
 
@@ -183,3 +204,8 @@
         transform: translateX(0);
     }
 }
+
+
+
+
+
