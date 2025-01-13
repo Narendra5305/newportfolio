@@ -55,3 +55,42 @@
 .nav-menu li a:hover{
     color: #0ac98c;
 }
+
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 0.3em;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+@media screen and (max-width: 80rem) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        gap: 0.5em;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        width: 200px;
+        padding: 1em;
+        border-radius: 5px;
+    }
+
+    .navbar-2.open .nav-menu {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+  }
