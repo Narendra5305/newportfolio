@@ -156,11 +156,11 @@ const Projects = () =>{
                                 </div>
 
                                 <div className="project-card-part-2-1-paragraph">
-                                    <p>The Social Media Content Downloader is a Python-based utility that allows users to effortlessly download content 
-                                        from YouTube and Instagram. For YouTube, the program downloads videos using the pytube library. For Instagram, 
-                                        it retrieves the user's profile picture and the latest post using the instaloader library. The application provides 
-                                        an intuitive option to choose between Instagram and YouTube operations, showcasing its versatility in handling multimedia 
-                                        from popular platforms. This project highlights skills in library integration, API usage, and user interaction through Python.
+                                    <p>The Social Media Content Downloader is a Python-based utility that allows users to effortlessly download content
+                                         from Instagram and YouTube. For Instagram, it retrieves the user's profile picture and the latest post using the instaloader 
+                                         library. For YouTube, the program downloads videos using the pytube library. The application provides an intuitive option to 
+                                         choose between Instagram and YouTube operations, showcasing its versatility in handling multimedia from popular platforms. 
+                                         This project highlights skills in library integration, API usage, and user interaction through Python.
                                     </p> 
                                     
                                 </div>
