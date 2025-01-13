@@ -107,23 +107,25 @@
 @media screen and (max-width: 80rem) {
     
     .about-cont-1{
-    
+        
         width: 100%;
     }
 
     .about-cont-2{
+        
         width: 100%;
     }
-
-
-
    
     .about-cont{
-        
         display: flex;
         flex-wrap: wrap;
         
     }
     
+    .about-cont-2-image > img{
+        width: 80vw;
+        height: 80vw;
+    }
 }
+
 

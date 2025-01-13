@@ -1,7 +1,6 @@
 import React from "react";
 import '../home/home.css'
 import profileimage from "../../assets/profileimage.png"
-import { AnimationText } from "./animatedtext1";
 
 const Home = () =>{
     return(
@@ -10,17 +9,8 @@ const Home = () =>{
                 <div className="home-box-1">
                     <div className="home-text-1">
                         <h2>Nice to meet you! <br /> <span className="home-text-1-span"> I'm Narendra Singh </span> </h2>
-                    </div>
-                    <div className="home-text-2">
-                        <div className="home-text-2-text">
-                            <p>I'm a front-end developer passionate about building accessible web apps that users love. </p>
-                        </div>
-                    </div>
-                    <div className="home-text-3">
-                        <div className="home-text-3-text">
+                        <p>I'm a front-end developer passionate about building accessible web apps that users love. </p>
                         <a href="mailto:narendrasinghsitu4@gmail.com">Contact Me!</a>
-                        </div>
-        
                     </div>
                 </div>
                 <div className="home-box-2">

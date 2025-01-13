@@ -86,7 +86,7 @@
         border-radius: 5px;
     }
     .navbar-1 a{
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .navbar-2.open .nav-menu {
@@ -97,3 +97,11 @@
         display: flex;
     }
   }
+
+
+/* 
+@media screen and (max-width: 48rem){
+    #navbar-main{
+        display: none;
+    }
+} */
