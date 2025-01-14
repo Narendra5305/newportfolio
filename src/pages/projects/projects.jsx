@@ -54,9 +54,9 @@ const Projects = () =>{
                                         </div>
                                     </a>
 
-                                    <a target="blank" href="https://one-mg-clone.netlify.app/" className="project-link">
-                                        <img src="https://www.svgrepo.com/show/308934/website-webpage-url-domain.svg" alt="github logo" className="project-link-1-logo" />
-                                        <div  target="blank" href="https://one-mg-clone.netlify.app/" className="project-links-text">
+                                    <a target="blank" href="https://one-mg.netlify.app/" className="project-link">
+                                        <img src="https://www.svgrepo.com/show/308934/website-webpage-url-domain.svg" alt="deploy logo" className="project-link-1-logo" />
+                                        <div  target="blank" href="https://one-mg.netlify.app/" className="project-links-text">
                                             <a>Live Project</a>
                                             <img src="https://www.svgrepo.com/show/486763/open-external.svg" alt="linkpng" className="project-links-text-png"/>
                                         </div>
@@ -113,9 +113,9 @@ const Projects = () =>{
                                         </div>
                                     </a>
 
-                                    <a style={{"display":"none"}} target="blank" href="https://one-mg-clone.netlify.app/" className="project-link">
-                                        <img src="https://www.svgrepo.com/show/308934/website-webpage-url-domain.svg" alt="github logo" className="project-link-1-logo" />
-                                        <div  target="blank" href="https://one-mg-clone.netlify.app/" className="project-links-text">
+                                    <a style={{"display":"none"}} target="blank" href="" className="project-link">
+                                        <img src="https://www.svgrepo.com/show/308934/website-webpage-url-domain.svg" alt="deploy logo" className="project-link-1-logo" />
+                                        <div  target="blank" href="" className="project-links-text">
                                             <a >Live Project</a>
                                             <img src="https://www.svgrepo.com/show/486763/open-external.svg" alt="linkpng" className="project-links-text-png"/>
                                         </div>
@@ -174,9 +174,9 @@ const Projects = () =>{
                                         </div>
                                     </a>
 
-                                    <a style={{"display":"none"}} target="blank" href="https://one-mg-clone.netlify.app/" className="project-link">
-                                        <img src="https://www.svgrepo.com/show/308934/website-webpage-url-domain.svg" alt="github logo" className="project-link-1-logo" />
-                                        <div  target="blank" href="https://one-mg-clone.netlify.app/" className="project-links-text">
+                                    <a style={{"display":"none"}} target="blank" href="" className="project-link">
+                                        <img src="https://www.svgrepo.com/show/308934/website-webpage-url-domain.svg" alt="deploy logo" className="project-link-1-logo" />
+                                        <div  target="blank" href="" className="project-links-text">
                                             <a >Live Project</a>
                                             <img src="https://www.svgrepo.com/show/486763/open-external.svg" alt="linkpng" className="project-links-text-png"/>
                                         </div>
