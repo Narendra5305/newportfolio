@@ -4,6 +4,26 @@ import "../navbar/navbar.css"
 const Navbar = () =>{
     const [isOpen, setIsOpen] = useState(false);
 
+
+    const handleDownload = () => {
+        
+        const viewUrl = "https://drive.google.com/file/d/1gjgn-9J3R0rCqKYKu17Y6T2ckDHthYyM/view";
+       
+        const downloadUrl = "https://drive.google.com/uc?export=download&id=1gjgn-9J3R0rCqKYKu17Y6T2ckDHthYyM";
+      
+        
+        const newTab = window.open(viewUrl, "_blank");
+      
+        
+        setTimeout(() => {
+          if (newTab) {
+            newTab.location.href = downloadUrl;
+          }
+        }, 1000); 
+      };
+      
+
+
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
@@ -21,7 +41,7 @@ const Navbar = () =>{
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="https://drive.google.com/uc?export=download&id=1gjgn-9J3R0rCqKYKu17Y6T2ckDHthYyM" target="_blank">Resume</a></li>
+                        <li><a onClick={handleDownload} style={{"cursor": "pointer"}} >Resume</a></li>
                     </ul> 
                 </div>
 
