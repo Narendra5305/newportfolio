@@ -6,7 +6,7 @@ const Navbar = () =>{
 
 
     const handleDownload = () => {
-        const fileId = "168CjhllRj4Tu6LfQ095agcPPt5rzl1Sh";
+        const fileId = "1OumUn0OwmdlkdHZaEVa7jz6vVoXmGJnA";
         const viewUrl = `https://drive.google.com/file/d/${fileId}/view`;
         const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
     
