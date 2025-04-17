@@ -6,21 +6,23 @@ const Navbar = () =>{
 
 
     const handleDownload = () => {
+        const fileId = "168CjhllRj4Tu6LfQ095agcPPt5rzl1Sh";
+        const viewUrl = `https://drive.google.com/file/d/${fileId}/view`;
+        const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    
         
-        const viewUrl = "https://drive.google.com/file/d/1gjgn-9J3R0rCqKYKu17Y6T2ckDHthYyM/view";
-       
-        const downloadUrl = "https://drive.google.com/uc?export=download&id=1gjgn-9J3R0rCqKYKu17Y6T2ckDHthYyM";
-      
+        window.open(viewUrl, '_blank');
+    
         
-        const newTab = window.open(viewUrl, "_blank");
-      
-        
-        setTimeout(() => {
-          if (newTab) {
-            newTab.location.href = downloadUrl;
-          }
-        }, 1000); 
-      };
+    
+        const a = document.createElement('a');
+        a.href = downloadUrl;
+        a.download = ''; // Let browser infer filename
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    };
+    
       
 
 
