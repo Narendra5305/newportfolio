@@ -1,5 +1,5 @@
 import React from "react";
-import '../about/about.css'
+import './about.css'
 import aboutimage from "../../assets/aboutimage.png"
 
 
@@ -10,13 +10,11 @@ const About = () =>{
                 <div className="about-cont-1">
                     <div className="about-cont-1-text">
                         <h2>About <span> Me</span></h2>
-                        <h4>Frontend Developer</h4>
-                        <p>Accomplished React Frontend Developer proficient in HTML,
-                            CSS, and JavaScript, with a strong grasp of responsive
-                            designs and cross-browser compatibility. Demonstrates
-                            expertise in integrating frontend components with APIs and
-                            external services. Leverages Generative AI and rapidly
-                            adapts to new tech stacks for effective solutions.
+                        <h4>Full Stack Developer</h4>
+                        <p>Dynamic professional equipped with collaborative and problem-solving skills, focusing on professionalism and 
+                            adaptability in diverse work environments. Proficient in HTML, CSS, React.js, Express.js and MongoDB with the 
+                            capability to leverage Generative AI and rapidly master new technologies. Committed to fostering a productive team 
+                            culture and achieving excellence through attention to detail and quality.
                         </p>
                         <button>Resume</button>
                     </div>

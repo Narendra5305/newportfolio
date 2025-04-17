@@ -1,6 +1,6 @@
 import React from "react";
 import projectsData from "./db.json"
-import '../projects/projects.css';
+import './projects.css';
 
 import onemgimage from "../../assets/onemgimage.png"
 
@@ -46,7 +46,7 @@ const Projects = () =>{
                                 </div>
 
                                 <div className="project-links">
-                                    <a className="project-link">
+                                    <a href="https://github.com/Narendra5305/onemgclone" target="blank" className="project-link">
                                         <img src="https://www.svgrepo.com/show/512317/github-142.svg" alt="github logo" className="project-link-1-logo" />
                                         <div className="project-links-text">
                                             <a href="">Source Code</a>
@@ -73,11 +73,13 @@ const Projects = () =>{
                 </div>
 
 
+
+
                 <div className="projects-cont-2 project-2">
                     
                     <div className="project-card-cont">
                         <div className="project-card-part-1">
-                            <img src="https://fs.npstatic.com/userfiles/7687254/image/Weather-app.jpg" alt='onemgimage' className="project-image"/>
+                            <img src="https://images.rodpub.com/images/225/451_350.jpg" alt='dermstore image' className="project-image"/>
                         </div>
 
                         <div className="project-card-part-2">
@@ -85,37 +87,40 @@ const Projects = () =>{
                             <div className="project-card-part-2-1">
 
                                 <div className="project-card-part-2-1-title">
-                                    <h1>City Weather Finder</h1>
+                                    <h1>Dermstore Clone</h1>
                                 </div>
 
                                 <div className="project-card-part-2-1-stack">
                                     <ul>
-                                        <li>Python</li>
-                                        <li style={{"width":"250px"}}>OpenWeatherMap API</li>
+                                        <li>React</li>
+                                        <li>Express.js</li>
+                                        <li>Node.js</li>
+                                        <li>MongoDB</li>
+                                        <li>RTK</li>
                                     </ul>
                                 </div>
 
                                 <div className="project-card-part-2-1-paragraph">
-                                    <p>City Weather Finder is a Python-based application that provides real-time weather updates for cities worldwide.
-                                         By utilizing the OpenWeatherMap API, users can input their city name and receive the current temperature in Celsius.
-                                          The program handles errors gracefully, ensuring a smooth user experience even with invalid input. This project 
-                                          demonstrates effective use of third-party APIs, exception handling, and basic Python concepts.
+                                    <p>This Dermstore clone website is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) combined with 
+                                        Redux Toolkit for state management and React Router DOM for seamless navigation. The platform allows users to browse a 
+                                        wide range of skincare and beauty products, manage their accounts, and explore products effortlessly. It features responsive design, 
+                                        efficient state handling, and smooth user interactions, replicating a real-world e-commerce experience with modern technologies.
                                     </p> 
                                     
                                 </div>
 
                                 <div className="project-links">
-                                    <a href="https://github.com/Narendra5305/python_project-2/blob/main/weather.py" target="blank" className="project-link">
+                                    <a href="https://github.com/Narendra5305/fullstackrepo" target="blank" className="project-link">
                                         <img src="https://www.svgrepo.com/show/512317/github-142.svg" alt="github logo" className="project-link-1-logo" />
                                         <div className="project-links-text">
-                                            <a href="https://github.com/Narendra5305/python_project-2/blob/main/weather.py" target="blank">Source Code</a>
+                                            <a target="blank">Source Code</a>
                                             <img src="https://www.svgrepo.com/show/532869/link-alt-1.svg" alt="linkpng" className="project-links-text-png"/>
                                         </div>
                                     </a>
 
-                                    <a style={{"display":"none"}} target="blank" href="" className="project-link">
+                                    <a target="blank" href="https://moonlit-bienenstitch-1ea9a1.netlify.app/" className="project-link">
                                         <img src="https://www.svgrepo.com/show/308934/website-webpage-url-domain.svg" alt="deploy logo" className="project-link-1-logo" />
-                                        <div  target="blank" href="" className="project-links-text">
+                                        <div   className="project-links-text">
                                             <a >Live Project</a>
                                             <img src="https://www.svgrepo.com/show/486763/open-external.svg" alt="linkpng" className="project-links-text-png"/>
                                         </div>
@@ -137,7 +142,7 @@ const Projects = () =>{
                     
                     <div className="project-card-cont">
                         <div className="project-card-part-1">
-                            <img src="https://cdn6.aptoide.com/imgs/0/7/9/0798fb40240bcddb1fc8fcff129518e0_fgraphic.png" alt='onemgimage' className="project-image"/>
+                            <img src="https://miro.medium.com/v2/resize:fit:12636/1*nPNrEKZnadjaqVCgCm-MGA.png" alt='meetup image' className="project-image"/>
                         </div>
 
                         <div className="project-card-part-2">
@@ -145,36 +150,39 @@ const Projects = () =>{
                             <div className="project-card-part-2-1">
 
                                 <div className="project-card-part-2-1-title">
-                                    <h1>Social Media Content Downloader</h1>
+                                    <h1>Meetup Clone</h1>
                                 </div>
 
                                 <div className="project-card-part-2-1-stack">
                                     <ul>
-                                        <li>Python</li>
-                                        <li style={{"width":"320px"}}>instaloader, pytube</li>
+                                        <li>React</li>
+                                        <li>Express.js</li>
+                                        <li>Node.js</li>
+                                        <li>MongoDB</li>
+                                        
                                     </ul>
                                 </div>
 
                                 <div className="project-card-part-2-1-paragraph">
-                                    <p>The Social Media Content Downloader is a Python-based utility that allows users to effortlessly download content
-                                         from Instagram and YouTube. For Instagram, it retrieves the user's profile picture and the latest post using the instaloader 
-                                         library. For YouTube, the program downloads videos using the pytube library. The application provides an intuitive option to 
-                                         choose between Instagram and YouTube operations, showcasing its versatility in handling multimedia from popular platforms. 
-                                         This project highlights skills in library integration, API usage, and user interaction through Python.
+                                    <p>This Meetup clone website is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) 
+                                        with Redux Toolkit for state management and React Router DOM for smooth navigation. The platform allows 
+                                        users to discover, join, and create events based on their interests. With Google authentication for easy login, 
+                                        it offers a responsive design, real-time updates, and seamless user interactions, providing a dynamic and user-friendly 
+                                        event management experience with modern technologies.
                                     </p> 
                                     
                                 </div>
 
                                 <div className="project-links">
-                                    <a href="https://github.com/Narendra5305/python_project/blob/main/project3.py" target="blank" className="project-link">
+                                    <a href="https://github.com/Narendra5305/fullStack_meetup" target="blank" className="project-link">
                                         <img src="https://www.svgrepo.com/show/512317/github-142.svg" alt="github logo" className="project-link-1-logo" />
                                         <div className="project-links-text">
-                                            <a href="https://github.com/Narendra5305/python_project/blob/main/project3.py" target="blank">Source Code</a>
+                                            <a  target="blank">Source Code</a>
                                             <img src="https://www.svgrepo.com/show/532869/link-alt-1.svg" alt="linkpng" className="project-links-text-png"/>
                                         </div>
                                     </a>
 
-                                    <a style={{"display":"none"}} target="blank" href="" className="project-link">
+                                    <a target="blank" href="https://meetup-clone-1.netlify.app/" className="project-link">
                                         <img src="https://www.svgrepo.com/show/308934/website-webpage-url-domain.svg" alt="deploy logo" className="project-link-1-logo" />
                                         <div  target="blank" href="" className="project-links-text">
                                             <a >Live Project</a>
