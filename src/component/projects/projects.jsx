@@ -2,7 +2,8 @@ import React from "react";
 import projectsData from "./db.json"
 import './projects.css';
 
-import onemgimage from "../../assets/onemgimage.png"
+import medicart from "../../assets/medicart.png"
+import mediCare from "../../assets/mediCare.png"
 
 
 const Projects = () =>{
@@ -17,7 +18,7 @@ const Projects = () =>{
                     
                     <div className="project-card-cont">
                         <div className="project-card-part-1">
-                            <img src={onemgimage} alt='onemgimage' className="project-image"/>
+                            <img src={medicart} alt='onemgimage' className="project-image"/>
                         </div>
 
                         <div className="project-card-part-2">
@@ -25,7 +26,7 @@ const Projects = () =>{
                             <div className="project-card-part-2-1">
 
                                 <div className="project-card-part-2-1-title">
-                                    <h1>One Mg Clone</h1>
+                                    <h1>Medicart</h1>
                                 </div>
 
                                 <div className="project-card-part-2-1-stack">
@@ -36,11 +37,11 @@ const Projects = () =>{
                                 </div>
 
                                 <div className="project-card-part-2-1-paragraph">
-                                    <p>Developed the front end for a One MG clone using React, leveraging hooks like useState and useEffect 
-                                        for efficient state management. Utilized Context API to handle global state, ensuring a seamless user experience. 
-                                        Implemented React Router to enable smooth navigation and dynamic routing across various features. Focused on creating a 
-                                        user-friendly interface with responsive design, showcasing expertise in building modern, interactive, and responsive web
-                                        applications with React.
+                                    <p>Developed the front end for a MediPlus application inspired by OneMG, using React to build a seamless and 
+                                        responsive user interface. Leveraged hooks like useState and useEffect for efficient state management, and 
+                                        utilized the Context API for handling global state across the app. Implemented React Router to enable dynamic 
+                                        routing and smooth page navigation. Emphasized clean UI/UX principles to deliver a modern and intuitive web 
+                                        experience, demonstrating expertise in building scalable and interactive frontend applications.
                                     </p> 
                                     
                                 </div>
@@ -79,7 +80,7 @@ const Projects = () =>{
                     
                     <div className="project-card-cont">
                         <div className="project-card-part-1">
-                            <img src="https://images.rodpub.com/images/225/451_350.jpg" alt='dermstore image' className="project-image"/>
+                            <img src={mediCare} alt='mediCare image' className="project-image"/>
                         </div>
 
                         <div className="project-card-part-2">
@@ -101,10 +102,12 @@ const Projects = () =>{
                                 </div>
 
                                 <div className="project-card-part-2-1-paragraph">
-                                    <p>This Dermstore clone website is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) combined with 
-                                        Redux Toolkit for state management and React Router DOM for seamless navigation. The platform allows users to browse a 
-                                        wide range of skincare and beauty products, manage their accounts, and explore products effortlessly. It features responsive design, 
-                                        efficient state handling, and smooth user interactions, replicating a real-world e-commerce experience with modern technologies.
+                                    <p>MadiCare is an e-commerce platform inspired by Dermstore, built using the MERN stack 
+                                        (MongoDB, Express.js, React.js, Node.js). It integrates Redux Toolkit for efficient state management 
+                                        and React Router DOM for smooth, dynamic navigation. The platform enables users to browse a diverse 
+                                        collection of skincare and beauty products, manage accounts, and enjoy a seamless shopping experience. 
+                                        Focused on modern UI/UX, MadiCare replicates real-world e-commerce functionality with intuitive design and 
+                                        robust backend integration.
                                     </p> 
                                     
                                 </div>
@@ -137,7 +140,7 @@ const Projects = () =>{
                 </div>
 
 
-
+{/* 
                 <div className="projects-cont-2 project-3">
                     
                     <div className="project-card-cont">
@@ -198,7 +201,7 @@ const Projects = () =>{
                             
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
             </div>
