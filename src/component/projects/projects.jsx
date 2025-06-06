@@ -37,7 +37,7 @@ const Projects = () =>{
                                 </div>
 
                                 <div className="project-card-part-2-1-paragraph">
-                                    <p>Developed the front end for a MediPlus application inspired by OneMG, using React to build a seamless and 
+                                    <p>Developed the front end for a MediCart application inspired by OneMG, using React to build a seamless and 
                                         responsive user interface. Leveraged hooks like useState and useEffect for efficient state management, and 
                                         utilized the Context API for handling global state across the app. Implemented React Router to enable dynamic 
                                         routing and smooth page navigation. Emphasized clean UI/UX principles to deliver a modern and intuitive web 
@@ -88,7 +88,7 @@ const Projects = () =>{
                             <div className="project-card-part-2-1">
 
                                 <div className="project-card-part-2-1-title">
-                                    <h1>Dermstore Clone</h1>
+                                    <h1>MadiCare Store</h1>
                                 </div>
 
                                 <div className="project-card-part-2-1-stack">
